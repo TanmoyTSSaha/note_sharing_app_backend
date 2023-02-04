@@ -8,9 +8,9 @@ from user_profile.serializers import UserProfileSerializer, CoursesSerializer
 
 
 class UserProfileViewSet(viewsets.ModelViewSet):
-    queryset = UserProfile.objects.all(),
+    queryset = UserProfile.objects.all()
     serializer_class = UserProfileSerializer
 
 class CoursesViewSet(viewsets.ModelViewSet):
-    queryset = Courses.objects.all(),
+    queryset = Courses.objects.all()
     serializer_class = CoursesSerializer
